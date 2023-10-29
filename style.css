@@ -1,0 +1,254 @@
+/* make a parent flexbox for home page */
+.home-flexbox-container {
+	display: flex;
+	justify-content: center;
+	
+}
+
+/* uniform titles for continutity across pages */
+.page-title {
+	background-color: green;
+	height: 100px;
+	font-size: 70px;
+	text-align: center;
+	margin: auto 0;
+	padding-top: 15px;
+}
+
+/* h1 contains central logo header */
+h1 {
+	color: white;
+	font-weight: bold;
+	font-size: 50px;
+	text-align: center;
+	margin: auto;
+}
+
+
+/* for bigger topic headers in body */
+h2 {
+	font-size: 60px;
+	padding-left: 30px;
+	padding-top: 0px;
+
+}
+
+/* for smaller topic headers in body*/
+h3 {
+	font-size: 50px;
+	padding-left: 30px;
+	padding-top: 0px
+}
+
+body {
+	margin: 0px;
+}
+
+/* uniform text appearance */
+p {
+	font-size: 30px;
+	padding-left: 30px;
+}
+
+/* clear & consistent footer format*/
+footer {
+	background-color: red;
+	margin: 0px;
+	padding: 1px;
+	font-weight: bold;
+}
+
+label {
+	font-size: 30px;
+}
+
+
+/* the following home* classes format the "buttons"  on the home page */
+.homeNavWhite {
+	width: 200px;
+	height:200px;
+	border: 6px solid black;
+	background-color: white;
+	font-size: 30px;
+	text-align: center;
+	align-content: center;
+}
+
+.homeNavGreen {
+	width: 200px;
+	height:200px;
+	border: 6px solid black;
+	background-color: green;
+	font-size: 30px;
+	text-align: center;
+	align-content: center;
+}
+
+.homeNavRed {
+	width: 200px;
+	height:200px;
+	border: 6px solid black;
+	background-color: red;
+	font-size: 30px;
+	text-align: center;
+	align-content: center;
+}
+
+.homeNavOrange {
+	width: 200px;
+	height:200px;
+	border: 6px solid black;
+	background-color: orange;
+	font-size: 30px;
+	text-align: center;
+	align-content: center;
+}
+
+.homeNavYellow {
+	width: 200px;
+	height:200px;
+	border: 6px solid black;
+	background-color: yellow;
+	font-size: 30px;
+	text-align: center;
+	align-content: center;
+}
+
+.homeNavBlue {
+	width: 200px;
+	height:200px;
+	border: 6px solid black;
+	background-color: blue;
+	font-size: 30px;
+	text-align: center;
+	align-content: center;
+}
+
+
+
+
+/* top row navigation formatting */
+.navigation-container {
+	display: flex;
+	justify-content: right;
+	background-color: orange;
+	margin: 0px;
+}
+
+.Nav {
+	width: 170px;
+	height:50px;
+	font-size: 25px;
+	text-align: center;
+	align-items: center;
+}
+
+
+/* coloring main bodies of document */
+.main {
+	background-color:yellow;
+	margin:0px;
+	padding: 5px;
+}
+
+.main2 {
+	background-color: green;
+	margin:0px;
+	padding: 5px;
+}
+
+
+/* mehcanics page specific formatting*/
+img.floatright {
+	float: right;
+}
+
+.caption {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.mech-caption {
+	font-weight: bold;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+.about-flexbox {
+	display: flex;
+	width: 50%;
+	margin: 0px;
+}
+
+.subtitle {
+	border: 6px solid blue;
+}
+
+.help-img {
+	display: flex;
+	justify-content: center;
+	padding: 0px;
+	margin: 0px;
+}
+
+.contact {
+	display: flex;
+	justify-content: center;
+	border: 6px solid blue;
+	font-size: 30px;
+}
+
+/* serializes the about page */
+#erno {
+	width: 500px;
+	padding-right: 90px; 
+}
+
+#prototype {
+	padding-left: 150px;
+}
+
+#protoIMG {
+	padding-left: 80px;
+	width: 200px;
+	height:200px;
+}
+
+/* all the following code formats the contact form */
+form {
+    width: 300px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: gray;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: blue;
+}

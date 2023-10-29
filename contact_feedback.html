@@ -7,6 +7,7 @@
     <meta name="author" content="Andrew Smith">
 	<meta name="keywords" content="Rubik's Cube, solving Rubik's Cube, history of Rubik's Cube, Rubik's Cube mechanics, Rubik's Cube pieces, Rubik's Cube tutorial, solving puzzles, puzzle history, twisty puzzles, speedcubing, cube algorithms">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="style.css" rel="stylesheet">
 	<title>Contact/Feedback Page</title>
 </head>
 
@@ -23,21 +24,24 @@
 
 <body>
 	<header>
-	<h1><a href="index.html"><img src="Images/rubiks_logo.jpg" alt="logo" height="50" width="100"></a></h1>
+		<h1><a href="index.html"><img src="Images/rubiks_logo.jpg" alt="logo" height="50" width="100"></a></h1>
 		<nav>
-			<li><a href="about.html">ABOUT</a></li>
-			<li><a href="mechanics.html">MECHANICS</a></li>
-			<li><a href="contact_feedback.html">CONTACT</a></li>
+		
+
+			<div class="navigation-container">
+				<div class="Nav toAbout"><a href="about.html">ABOUT</a></div>
+				<div class="Nav toMechanics"><a href="mechanics.html">MECHANICS</a></div>
+				<div class="Nav toContact"><a href="contact_feedback.html">CONTACT</a></div>
+			</div>
 		</nav>
 	</header>
 	
-	<section>
-		<h2>Feedback / Contact</h2>
-	</section>
+	<h2 class="page-title">Feedback / Contact</h2>
 	
-	<div>
+	<div class="main">
 		<h3>Feedback</h3>
 		<form>
+		
 			<label for="email">Enter E-Mail:</label>
 			<input type="text" id="email" name="email"><br>
 			<label for="username">Enter Name / Username:</label>
@@ -47,25 +51,28 @@
 			<label for="questions">Enter Questions:</label>
 			<textarea id="questions" name="questions" rows="4" cols="50">Questions...</textarea><br>
 			<input type="submit" value="Submit">
+			
 		</form>
 	</div>
 	
-	<div>
+	<div class="main2">
 		<h3>Contact</h3>
 		
-		<div>
-			<img src="Images/email_image.png" alt="E-Mail Image" height="130" width="150">
-			<p>
-				For any further inquiries, contact us at <a href="ats29@email.sc.edu">ats29@email.sc.edu</a>
-			</p>
+		<div class="help-img">
+			<img src="Images/email_image.png" alt="E-Mail Image" height="300">
 		</div>
 		
-		<div>
-			<img src="Images/instagram_logo.png" alt="Instagram Logo" height="120" width="120">
-			<p>
-				To stay updated with tips and tricks, follow us on <a href="instagram.com">Instagram</a>
-			</p>
+		<div class="contact">
+			For any further inquiries, contact us at:<a href="ats29@email.sc.edu"> ats29@email.sc.edu</a>
 		</div>
+		<br><br>
+		<div class="help-img">
+			<img src="Images/instagram_logo.png" alt="Instagram Logo" height="250">
+		</div>
+		<br><br>
+		<span class="contact">
+			To stay updated with tips and tricks, follow us on:<a href="instagram.com"> Instagram</a>
+		</span>
 	</div>
 	
 	<footer>

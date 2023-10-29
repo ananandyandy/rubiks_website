@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
 	<meta charset="utf-8">
 	<meta name="description" content="This website provides a brief history of the Rubik's Cube along with its
 	mechanics and instructions for solving it.">
@@ -9,6 +8,8 @@
 	<meta name="keywords" content="Rubik's Cube, solving Rubik's Cube, history of Rubik's Cube, Rubik's Cube mechanics, Rubik's Cube pieces,
 	Rubik's Cube tutorial, solving puzzles, puzzle history, twisty puzzles, speedcubing, cube algorithms">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="style.css" rel="stylesheet">
+	<body style="background-color:black;">
 	<title>Home Page</title>
 </head>
 
@@ -22,27 +23,44 @@
   gtag('config', 'G-KKXY0ZJ58G');
 </script>
 
-
 <body>
 	<header>
-	<h1>Text that will display the navigation name when hovering over a button (JS)</h1>
+		<h1>Text that will display the navigation name when hovering over a button (JS)</h1>
 	<nav>
-		<ul>
-			<li>About Navigation - About Navigation - About Navigation</li>
-			<li> Mechanics Navigation - <img src="Images/rubiks_logo.jpg" alt="logo" height="50" width="60"> - Mechanics Navigation</li>
-			<li> Solving Naviagtion - Contact/Feedback Navigation - Solving Navigation</li>
-			<!--This will be functionalized in JS and stylized in CSS in accorance with my Figma UI-->
-		</ul>
+	
+		<div class="home-flexbox-container">
+			<div class="homeNavGreen button-1">About Navigation (text wont be visible after JS)</div>
+			<div class="homeNavWhite button-2">About Navigation</div>
+			<div class="homeNavRed button-3">About Navigation</div>
+		</div>
+		
+		<div class="home-flexbox-container">
+			<div class="homeNavOrange button-1">Mechanics Navigation</div>
+			<div class="homeNavWhite button-2">
+				<br><img src="Images/rubiks_logo.jpg" alt="logo" height="100" width="180">
+			</div>
+			<div class="homeNavYellow button-3">Mechanics Navigation</div>
+		</div>
+		
+		<div class="home-flexbox-container">
+			<div class="homeNavBlue button-1">Solving Navigation</div>
+			<div class="homeNavYellow button-2">Contact Navigation</div>
+			<div class="homeNavOrange button-3">Solving Navigation</div>
+		</div>
+	
+
+	<!--This will be functionalized in JS and stylized in CSS in accorance with my Figma UI-->
 	</nav>
 	
-	<nav>
-		<p>
-		for now use these links to traverse the website, button functionality will be made later with JS and CSS
-		</p>
 	
-			<li><a href="about.html">ABOUT</a></li>
-			<li><a href="mechanics.html">MECHANICS</a></li>
-			<li><a href="contact_feedback.html">CONTACT</a></li>
+	
+	
+	
+	
+	<nav>
+		<li><a href="about.html">ABOUT</a></li>
+		<li><a href="mechanics.html">MECHANICS</a></li>
+		<li><a href="contact_feedback.html">CONTACT</a></li>
 	</nav>
 		
 		

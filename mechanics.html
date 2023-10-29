@@ -7,6 +7,7 @@
     <meta name="author" content="Andrew Smith">
 	<meta name="keywords" content="Rubik's Cube, solving Rubik's Cube, history of Rubik's Cube, Rubik's Cube mechanics, Rubik's Cube pieces, Rubik's Cube tutorial, solving puzzles, puzzle history, twisty puzzles, speedcubing, cube algorithms">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="style.css" rel="stylesheet">
 	<title>Mechanics Page</title>
 </head>
 
@@ -23,24 +24,29 @@
 
 <body>
 	<header>
-	<h1><a href="index.html"><img src="Images/rubiks_logo.jpg" alt="logo" height="50" width="100"></a></h1>
+		<h1><a href="index.html"><img src="Images/rubiks_logo.jpg" alt="logo" height="50" width="100"></a></h1>
 		<nav>
-			<li><a href="about.html">ABOUT</a></li>
-			<li><a href="mechanics.html">MECHANICS</a></li>
-			<li><a href="contact_feedback.html">CONTACT</a></li>
+		
+
+			<div class="navigation-container">
+				<div class="Nav toAbout"><a href="about.html">ABOUT</a></div>
+				<div class="Nav toMechanics"><a href="mechanics.html">MECHANICS</a></div>
+				<div class="Nav toContact"><a href="contact_feedback.html">CONTACT</a></div>
+			</div>
+
 		</nav>
 	</header>
 	
 	
 	
 	<section>
-		<h2>Mechanics</h2>
+		<h2 class="page-title">Mechanics</h2>
 	</section>
 	
 	
 	
-	<div>
-		<div>
+	<div class="main">
+		<div class="subtitle">
 			<h2>Parts</h2>
 			<p>
 				The puzzle initially appears to be made up of a stack of cubes that turn around each other.
@@ -58,9 +64,12 @@
 				intact. Because of this design, the only piece that may never move places on a cube is the center piece.
 				Each side has a separate color in the center, which will be the basis for solving.
 			</p>
-			<p>
-				<img src="Images/cube-core.jpg" alt="Rubik's Cube Core" height="150" width="220">The core of the cube allows each face to rotate.
-			</p>
+			<div class="help-img">
+				<img src="Images/cube-core.jpg" alt="Rubik's Cube Core" height="300">
+			</div>
+			<div class="mech-caption">
+					The core of the cube allows each face to rotate.
+			</div>
 		</div>
 		
 		<div>
@@ -70,9 +79,14 @@
 				they are positioned along the edge of the puzzle. Each edge displays two different colors which indicate 
 				what faces they should be joining. Edge pieces, unlike the core do move around, and must be brought back to their correct center colors.
 			</p>
-			<p>
-				<img src="Images/edge_pieces.PNG" alt="Rubik's Cube Edges" height="150" width="130">Edge pieces connect center pieces and move as the cube turns.
-			</p>
+			
+			<div class="help-img">
+				<img src="Images/edge_pieces.PNG" alt="Rubik's Cube Edges" height="300">
+			</div>
+			
+			<div class="mech-caption">
+				Edge pieces connect center pieces and move as the cube turns.
+			</div>
 		</div>
 		
 		<div>
@@ -84,16 +98,21 @@
 				It is important to note that a corner piece may not take the place of an edge piece. A corner can only go in a 
 				corner slot and an edge in an edge slot.
 			</p>
-			<p>
-				<img src="Images/corner_pieces.PNG" alt="Rubik's Cube Corners" height="150" width="120">Corner pieces are identified by their position and their three colors.
-			</p>
+			
+			<div class="help-img">
+				<img src="Images/corner_pieces.PNG" alt="Rubik's Cube Corners" height="300">
+			</div>
+			
+			<div class="mech-caption">
+				Corner pieces are identified by their position and their three colors.
+			</div>
 		</div>
 	</div>
 	
 	
 	
-	<div>
-		<div>
+	<div class="main2">
+		<div class="subtitle">
 			<h2>Movement</h2>
 			<p>
 				The key to solving the Rubik’s Cube is understanding how it moves, as this leads to understanding how to 
