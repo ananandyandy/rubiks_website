@@ -215,6 +215,17 @@ img.floatright {
 	height:200px;
 }
 
+/* Makes link colors accessible */
+a:link {
+	color: black;
+}
+
+a:visited {
+	color: black;
+	background-color: transparent;
+	text-decoration: none;
+}
+
 /* all the following code formats the contact form */
 form {
     width: 300px;
